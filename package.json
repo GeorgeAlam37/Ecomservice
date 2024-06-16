@@ -7,17 +7,17 @@
   "engines": {
     "node": "^18.17.1 || ^20.3.0 || >= 21.0.0"
   },
-"scripts": {
-  "dev": "astro dev",
-  "start": "astro dev",
-  "build": "astro build",
-  "preview": "astro preview",
-  "astro": "astro",
-  "format": "prettier -w .",
-  "lint:eslint": "eslint .",
-  "deploy": "astro build && gh-pages -d dist",
-  "predeploy": "astro build"
-},
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "format": "prettier -w .",
+    "lint:eslint": "eslint .",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "astro build"
+  },
   "dependencies": {
     "@astrojs/rss": "^4.0.6",
     "@astrojs/sitemap": "^3.1.5",
