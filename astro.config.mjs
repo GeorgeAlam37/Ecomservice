@@ -18,6 +18,8 @@ const whenExternalScripts = (items = []) =>
 
 export default defineConfig({
   output: 'static',
+  site: 'https://GeorgeAlam37.github.io',
+  base: '/ecomservice/',
   integrations: [
     tailwind({
       applyBaseStyles: false,

@@ -16,7 +16,7 @@
     "format": "prettier -w .",
     "lint:eslint": "eslint .",
     "deploy": "gh-pages -d dist",
-    "predeploy": "astro build"
+    "predeploy": "npm run build"
   },
   "dependencies": {
     "@astrojs/rss": "^4.0.6",
