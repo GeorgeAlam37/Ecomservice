@@ -18,7 +18,7 @@ const whenExternalScripts = (items = []) =>
 
 export default defineConfig({
   site: 'https://georgealam37.github.io/ecomservice/',
-  base: '/ecomservice/',  // Set to your repository name
+  base: '/ecomservice/',
   integrations: [
     tailwind({
       applyBaseStyles: false,
