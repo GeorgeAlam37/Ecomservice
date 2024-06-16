@@ -17,7 +17,7 @@ const whenExternalScripts = (items = []) =>
   hasExternalScripts ? (Array.isArray(items) ? items.map((item) => item()) : [items()]) : [];
 
 export default defineConfig({
-  output: 'dist',
+  site: 'https://georgealam37.github.io/ecomservice/',
   base: '/ecomservice/',  // Set to your repository name
   integrations: [
     tailwind({
