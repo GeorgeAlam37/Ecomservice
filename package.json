@@ -15,7 +15,7 @@
   "astro": "astro",
   "format": "prettier -w .",
   "lint:eslint": "eslint .",
-  "deploy": "npm run build && gh-pages -d dist",
+  "deploy": "astro build && gh-pages -d dist",
   "predeploy": "astro build"
 },
   "dependencies": {
