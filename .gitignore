@@ -19,6 +19,9 @@ pnpm-debug.log*
 # macOS-specific files
 .DS_Store
 
-pnpm-lock.yaml
+# lock file for pnpm
+# pnpm-lock.yaml should not be ignored if you are using pnpm for consistent dependencies
+# pnpm-lock.yaml
 
-.astro
+# Astro specific directories
+.astro/
