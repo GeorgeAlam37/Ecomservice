@@ -17,7 +17,7 @@ const whenExternalScripts = (items = []) =>
   hasExternalScripts ? (Array.isArray(items) ? items.map((item) => item()) : [items()]) : [];
 
 export default defineConfig({
-  output: 'static',
+  output: 'dist',
   site: 'https://GeorgeAlam37.github.io',
   base: '/ecomservice/',
   integrations: [
